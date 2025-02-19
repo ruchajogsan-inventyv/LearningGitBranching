@@ -25,7 +25,7 @@ git checkout main^
 above will direct to the first parent, ^2, will lead to upward parent. 
 ![alt text](image-1.png)
 ```bash
-$ git branch -f bugWork c2
+$ git branch bugFix main^^2^
 ```
 ## Level 3 Branch Spaghetti
 Updated these three branches with modified versions of the last branch.
