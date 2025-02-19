@@ -2,19 +2,32 @@
 
 ## Level 1 
 ![alt text](image.png)
-![alt text](image-1.png)
 
+
+```bash
+$ git checkout c4
+```
 
 ## Level 2
 ![alt text](image-2.png)
-![alt text](image-3.png)
 
+```bash
+$ git checkout main
+$ git checkout c3
+```
 
 ## Level 3
 ![alt text](image-4.png)
-![alt text](image-5.png)
 
+```bash
+$ git branch-f main c6  
+$ git branch-f bugFix c0 
+$ git checkout c1
+```
 
 ## Level 4
 ![alt text](image-6.png)
-![alt text](image-7.png)
+
+```bash
+$ git rebase -i HEAD~4 
+```
